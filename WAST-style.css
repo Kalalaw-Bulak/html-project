@@ -1,0 +1,74 @@
+@font-face {
+    font-family: pinakatay;
+    src: url(./pinakatay.ttf);
+}
+
+body {
+    background-image: url(./pictures/kahoy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: pinakatay;
+    color: white;
+}
+
+h1:hover {
+    color: rgb(118, 156, 189);
+}
+
+/* p:hover { 
+    color: white;
+}
+
+.wast {
+    border: 5px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}  */
+
+.tanan {
+    /* display: inline-flex;
+    column-gap: 190px;  */
+}
+
+.matcha {
+    border: 3px solid white;
+    width: 250px;
+    height: 325px;
+}
+
+.classicgreentea {
+    border: 3px solid white;
+    width: 250px;
+    height: 325px;
+}
+
+.blacktea {
+    border: 3px solid white;
+    width: 250px;
+    height: 325px;
+}
+
+.gingertea {
+    border: 3px solid white;
+    width: 250px;
+    height: 325px;
+}
+
+.lemongrasstea {
+    border: 3px solid white;
+    width: 250px;
+    height: 325px;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
