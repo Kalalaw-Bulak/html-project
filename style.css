@@ -1,0 +1,263 @@
+/* lihok-lihok */
+@keyframes menu {
+    from { transform: translateY(-20%);}
+
+}
+@keyframes dako {
+    50%{transform: scale(.5, .5);}
+}
+/* mga suwat */
+@font-face {
+    font-family: taas-ubos;
+    src: url(./suwati/taas-ubos.ttf);
+}
+@font-face {
+    font-family: sayaw;
+    src: url(./suwati/sayaw.ttf);
+}
+@font-face {
+    font-family: pinakatay;
+    src: url(./suwati/pinakatay.ttf);
+}
+@font-face {
+    font-family: pacific;
+    src: url(./suwati/pacific.ttf);
+}
+@font-face {
+    font-family: dakodako;
+    src: url(./suwati/dakodako.ttf);
+}
+@font-face {
+    font-family: bagaa;
+    src: url(./suwati/bagaa.ttf);
+}
+
+
+body {
+    background-image: url(./pictures/kapenaka4k.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: #3F2305;
+}
+
+#bar {
+    width: 2200px;
+    height: 100px;
+    
+    margin-top: -20px;
+    margin-left: -20px;
+    
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background: linear-gradient(to left, #603F26, #BA704F, #FFDBB5 );
+}
+
+.nav1{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    
+    font-family: taas-ubos;
+}
+.nav1 a {
+    color: #FFDBB5;
+    text-decoration: none;
+
+    position: absolute;
+    top: 5px;
+    left: 550px;
+}
+
+.nav2{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+
+    font-family: taas-ubos;
+}
+.nav2 a {
+    color: #FFDBB5;
+    text-decoration: none;
+
+    position: absolute;
+    top: 5px;
+    left: 900px;
+}
+
+.nav3 {
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+
+    font-family: taas-ubos;
+}
+.nav3 a {
+    color: #FFDBB5;
+    text-decoration: none;
+
+    position: absolute;
+    top: 5px;
+}
+
+.taas {
+    border: 2px solid #603F26;
+    border-radius: 50px 0px 30px 0px;
+    width: 500px;
+    height: 180px;
+    margin: auto;
+    margin-top: 13px;
+    font-size: 20px;
+    text-align: center;
+
+    font-family: pacific;
+}
+.taas h1 {
+    color: #BA704F;
+    text-shadow: 5px 5px 5px white;
+}
+
+.asa {
+    float: right;
+
+    font-family: sayaw;
+}
+.asa h1 {
+    color: #BA704F;
+}
+.asa h3 {
+    color: #FFDBB5;
+}
+.asa h4 {
+    color: #FFDBB5;
+}
+
+.onsaysolod {
+    background-image: url(./pictures/kahoy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-left: -2px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 260px;
+}
+
+h3 {
+    text-shadow: 2px 2px 8px #3F2305, 2px 2px 8px #BA704F;
+}
+
+.bs {
+    text-align: center;
+    height: 360px;
+    width: 250px;
+    border: 5px solid #765827;
+    border-radius: 20px;
+    margin-left: 20px;
+
+    background-image: url(./pictures/best-selling.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bs p {
+    padding: 35px;
+    color: #D0B8A8;
+    text-shadow: 2px 2px 5px black;
+
+    font-family: bagaa;
+}
+.bs:hover {
+    background-image: url(./pictures/best-selling.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation: menu;
+    animation-duration: 2s;
+}
+
+.om {
+    text-align: center;
+    height: 360px;
+    width: 250px;
+    border: 5px solid #765827;
+    border-radius: 20px;
+
+    background-image: url(./pictures/other-menu.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.om p {
+    padding: 35px;
+    color: #D0B8A8;
+    text-shadow: 2px 2px 5px black;
+
+    font-family: bagaa;
+}
+.om:hover {
+    background-image: url(./pictures/other-menu.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation: menu;
+    animation-duration: 2s;
+}
+
+.wast {
+    text-align: center;
+    height: 360px;
+    width: 250px;
+    border: 5px solid #765827;
+    border-radius: 20px;
+
+    background-image: url(./pictures/we-also-serve-tea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wast p {
+    padding: 8px;
+    color: #D0B8A8;
+    text-shadow: 2px 2px 5px black;
+
+    font-family: bagaa;
+}
+.wast:hover {
+    background-image: url(./pictures/we-also-serve-tea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation: menu;
+    animation-duration: 2s;
+    
+}
+
+.desserts {
+    text-align: center;
+    height: 360px;
+    width: 250px;
+    border: 5px solid #765827;
+    border-radius: 20px;
+
+    background-image: url(./pictures/desserts.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.desserts p {
+    padding: 8px;
+    color: #D0B8A8;
+    text-shadow: 2px 2px 5px black;
+
+    font-family: bagaa;
+}
+.desserts:hover {
+    background-image: url(./pictures/desserts.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation: menu;
+    animation-duration: 2s;
+}
